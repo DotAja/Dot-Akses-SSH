@@ -1,2 +1,7 @@
 # Dot-Akses-SSH
-Mengaktifkan Akses Ssh Dengan Putty
+
+
+# TINGGAL COPY DAN PASTEKAN KE PUTTY KALIAN #
+```
+sudo su
+```
