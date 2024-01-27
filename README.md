@@ -3,6 +3,8 @@
 
 *TINGGAL COPY DAN PASTEKAN KE UBUNTU/DEBIAN KALIAN*
 ```
+sudo su
+cd
 wget -O dot https://bit.ly/dotssh
 chmod +x dot
 ./dot
