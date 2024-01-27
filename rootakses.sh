@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ganti kata sandi root
-echo -e "dot123\ndot123" | passwd root
+echo -e "dot\ndot" | passwd root
 
 # Unduh konfigurasi SSH dari URL
 config_url="https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/sshd_config"
@@ -14,9 +14,10 @@ systemctl restart sshd
 public_ip=$(curl -s ifconfig.me)
 
 # Tampilkan informasi
+clear
 echo "===================================="
-echo "Informasi Akses"
+echo "DOT AJA"
 echo "===================================="
-echo "IP Publik: $public_ip"
-echo "Kata Sandi Root: dot123"
+echo "IP Akses SSH:ssh root@$public_ip -p 22"
+echo "Kata Sandi: dot"
 echo "===================================="
