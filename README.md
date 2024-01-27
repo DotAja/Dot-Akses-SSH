@@ -3,5 +3,6 @@
 
 *TINGGAL COPY DAN PASTEKAN KE PUTTY KALIAN*
 ```
-wget raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/rootakses.sh && sh rootakses.sh
+wget -O dot.sh https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/rootakses.sh $$ chmod +x dot.sh && ./dot.sh
+
 ```
