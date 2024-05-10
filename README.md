@@ -3,6 +3,5 @@
 
 *TINGGAL COPY DAN PASTEKAN KE UBUNTU/DEBIAN KALIAN*
 ```
-sudo wget -O dot https://bit.ly/dotssh && sudo chmod +x dot && sudo ./dot
-
+bash -c "$(wget -qO- bit.ly/dotssh)"
 ```
