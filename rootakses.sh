@@ -11,7 +11,7 @@ wget -O /etc/benner $mod_benner
 chmod +x /etc/benner
 
 echo 'clear' >> ~/.bashrc
-echo `./etc/benner` >> ~/.bashrc
+echo '/etc/benner' >> ~/.bashrc
 
 systemctl restart sshd
 
@@ -28,7 +28,7 @@ echo "╚═════╝  ╚═════╝    ╚═╝       ╚═╝ 
 echo "=============created By Hendi Kusnandi================"
 echo "GUNAKAN AKSES SSH YANG SUPPORT PORT 22"
 echo "USER : root"
-echo "IP AKSES : $public_ip
+echo "IP AKSES : $public_ip"
 echo "PASSWORD : dot"
 echo "SSH CMD: ssh root@$public_ip -p 22"
 echo "======================================================"
