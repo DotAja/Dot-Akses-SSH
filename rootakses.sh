@@ -3,7 +3,7 @@
 echo -e "dot\ndot" | passwd root
 
 mod_sshd="https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/sshd_config"
-mod_benner=""
+mod_benner="https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/benner"
 
 wget -O /etc/ssh/sshd_config $mod_sshd
 wget -O /etc/benner $mod_benner
