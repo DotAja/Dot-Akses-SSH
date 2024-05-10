@@ -17,9 +17,6 @@ systemctl restart sshd
 
 public_ip=$(curl -s ifconfig.me)
 
-rm dot
-rm dot.sh
-
 clear
 echo "======================================================"
 echo "██████╗  ██████╗ ████████╗     █████╗      ██╗ █████╗"
