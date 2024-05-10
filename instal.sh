@@ -1,5 +1,3 @@
 #!/bin/bash
 
-wget -O dot.sh https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/rootakses.sh
-chmod +x dot.sh
-./dot.sh
+wget -O - https://raw.githubusercontent.com/DotAja/Dot-Akses-SSH/main/rootakses.sh | bash
