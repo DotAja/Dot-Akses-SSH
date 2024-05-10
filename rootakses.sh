@@ -17,6 +17,9 @@ systemctl restart sshd
 
 public_ip=$(curl -s ifconfig.me)
 
+rm dot
+rm dot.sh
+
 clear
 echo "======================================================"
 echo "██████╗  ██████╗ ████████╗     █████╗      ██╗ █████╗"
@@ -32,3 +35,4 @@ echo "IP AKSES : $public_ip
 echo "PASSWORD : dot"
 echo "SSH CMD: ssh root@$public_ip -p 22"
 echo "======================================================"
+
